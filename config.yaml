@@ -1,0 +1,35 @@
+coil20:
+  alpha: 0.04
+  dim: 12
+  epoch: 200
+  gamma1: 1
+  gamma2: 1
+  ro: 8
+coil40:
+  alpha: 0.04
+  dim: 12
+  epoch: 300
+  gamma1: 1
+  gamma2: 64
+  ro: 8
+mnist:
+  alpha: 0.3
+  dim: 10
+  epoch: 300
+  gamma1: 1
+  gamma2: 512
+  ro: 10
+orl:
+  alpha: 0.2
+  dim: 3
+  epoch: 200
+  gamma1: 1
+  gamma2: 256
+  ro: 1
+usps:
+  alpha: 0.04
+  dim: 12
+  epoch: 300
+  gamma1: 1
+  gamma2: 512
+  ro: 8
